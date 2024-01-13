@@ -1,0 +1,141 @@
+* {
+    font-family: sans-serif;
+}
+
+:root {
+    /* --dark-color-1: #222831;
+    --dark-color-2: #393E46;
+    --light-color-1: #EEEEEE;
+    --light-color-2: #D65A31; */
+    /* --dark-color-1: #2D3435;
+    --dark-color-2: #446965;
+    --light-color-1: #EDEAB5;
+    --light-color-2: #F09915; */
+    --dark-color-1: #202020;
+    --dark-color-2: #6D757B;
+    --light-color-1: #F0F0EA;
+    --light-color-2: #80838F;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: var(--dark-color-1);    
+    background: linear-gradient(0deg, var(--dark-color-1), var(--dark-color-2));
+    color: var(--light-color-1);
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: large;
+}
+
+p {
+    margin: 0;
+}
+
+input {
+    all: unset;
+}
+
+.content {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    text-align: center;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin: 50px 0;
+}
+
+#searchInput {
+    border-radius: 5px;
+    border: var(--light-color-1) solid 2px;
+    color: var(--light-color-2);
+    text-align: center;
+}
+
+#nearRhymeBtn, #backToRhymeBtn {
+    background: none;
+    color: var(--light-color-2);
+    border: var(--light-color-2) solid 2px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+#searchInput::placeholder {
+    color: #f0f0f0;
+    opacity: 1;
+    /* Firefox */
+}
+
+#searchInput:focus::placeholder {
+    color: transparent;
+}
+
+#searchInput:-webkit-autofill {
+    background: none !important;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    background: var(--dark-color-1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#searchInput::-webkit-search-cancel-button {
+    position: relative;
+    right: 10px;
+    transition: right 0.2s, margin 0.2s;
+}
+
+/* light backdrops only
+input[type="search"]:focus::-webkit-search-cancel-button,
+input[type="search"]:hover::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 12px;
+    background:
+      linear-gradient(45deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 43%,#000 45%,#000 55%,rgba(0,0,0,0) 57%,rgba(0,0,0,0) 100%),
+      linear-gradient(135deg, transparent 0%,transparent 43%,#000 45%,#000 55%,transparent 57%,transparent 100%);
+  }
+   */
+/* dark backdrops only */
+input[type="search"][class="dark"]:focus::-webkit-search-cancel-button,
+input[type="search"][class="dark"]:hover::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 12px;
+    background: var(--light-color-1);
+    background:
+        linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 43%, var(--light-color-1) 45%, var(--light-color-1) 55%, rgba(0, 0, 0, 0) 57%, rgba(0, 0, 0, 0) 100%),
+        linear-gradient(135deg, transparent 0%, transparent 43%, var(--light-color-1) 45%, var(--light-color-1) 55%, transparent 57%, transparent 100%);
+}

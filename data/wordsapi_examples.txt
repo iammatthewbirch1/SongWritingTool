@@ -1,0 +1,123 @@
+{
+    "word":"cake",
+    "synonyms":["patty","coat","bar"]
+}
+
+{
+    "word": "cake",
+    "rhymes": {
+        "all": [
+            "ache",
+            "ake",
+            "awake",
+            "backache",
+            "bake",
+            "beefcake",
+            "beefsteak",
+            "bellyache",
+            "blacksnake",
+            "blake",
+            "brake",
+            "break",
+            "cake",
+            "canebrake",
+            "cheesecake",
+            "clambake",
+            "coffeecake",
+            "crake",
+            "cupcake",
+            "daybreak",
+            "drake",
+            "earache",
+            "earthquake",
+            "fake",
+            "firebreak",
+            "firedrake",
+            "flake",
+            "forsake",
+            "friedcake",
+            "give-and-take",
+            "griddlecake",
+            "grubstake",
+            "hake",
+            "handshake",
+            "headache",
+            "heartache",
+            "heartbreak",
+            "hoecake",
+            "housebreak",
+            "intake",
+            "jailbreak",
+            "johnnycake",
+            "keepsake",
+            "kingsnake",
+            "kittiwake",
+            "lake",
+            "make",
+            "mistake",
+            "muckrake",
+            "namesake",
+            "newsbreak",
+            "opaque",
+            "outbreak",
+            "overtake",
+            "partake",
+            "quake",
+            "radiopaque",
+            "rake",
+            "rattlesnake",
+            "retake",
+            "sake",
+            "seaquake",
+            "shake",
+            "sheikh",
+            "slake",
+            "snake",
+            "snowflake",
+            "stake",
+            "steak",
+            "strake",
+            "take",
+            "teacake",
+            "undertake",
+            "unmake",
+            "uptake",
+            "wake",
+            "wide-awake",
+            "windbreak",
+            "sick headache",
+            "summer snowflake",
+            "air intake",
+            "autumn snowflake",
+            "broad awake",
+            "fool mistake",
+            "keep awake",
+            "spring snowflake",
+            "stay awake",
+            "water snowflake"
+        ]
+    }
+},
+
+{
+    "word": "cake",
+    "definitions": [
+        {
+            "definition": "small flat mass of chopped food",
+            "partOfSpeech": "noun"
+        },
+        {
+            "definition": "form a coat over",
+            "partOfSpeech": "verb"
+        },
+        {
+            "definition": "a block of solid substance (such as soap or wax)",
+            "partOfSpeech": "noun"
+        },
+        {
+            "definition": "baked goods made from or based on a mixture of flour, sugar, eggs, and fat",
+            "partOfSpeech": "noun"
+        }
+    ]
+}
+
