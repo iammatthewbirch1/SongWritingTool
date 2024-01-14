@@ -11,25 +11,31 @@
 </head>
 <body>
     <i id="menuBtn" class="bi bi-pencil-square plus-btn-pos"></i>
-    <div class="content">
-
+    
+    <div class="wrapper">
         <div id="search">
-            <input class="dark" autocomplete="off" type="search" placeholder="" name="searchInput" id="searchInput">
+            <input class="dark" autocomplete="off" type="search" placeholder="..." name="searchInput" id="searchInput">
             <!-- <button id="searchBtn">Search</button> -->
         </div>
-    
-        <div id="result">
+        
+        <div class="tabs">
+            <div class="tab active rhymesTab"><p>rhymes</p></div>
+            <div class="tab synonymsTab"><p>synonyms</p></div>
+            <div class="tab definitionTab"><p>definition</p></div>
+        </div>
+
+        <div class="content">
+            <div id="result"></div>
         </div>
     </div>
 
     <div class="menu-container">
         <div class="menu-sliders"></div>
-        <div class="menu-sliders"></div>
-        <div class="menu-sliders"></div>
         <div class="menu">
             <h1 class="notesTitle">notes</h1>
             <div contenteditable="true" class="notes"></div>
         </div>
-      </div>
+    </div>
+
 </body>
 </html>
