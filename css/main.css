@@ -139,6 +139,8 @@ input {
     display: flex;
     align-items: center;
     place-content: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 .tab.active {
